@@ -7,8 +7,7 @@ import StateComponent from './component/StateComponent';
 class App extends Component {
   render() {
     return (
-      // <PropComponent name={["hyeung","park"]}/>
-      <StateComponent />
+      <StateComponent /> 
     );
   }
 }
