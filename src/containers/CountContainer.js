@@ -29,10 +29,10 @@ export function getRandomColor() {
 
 // store 안의 state 값을 props로 연결해줍니다.
 const mapStateToProps = (state) => ({
-//   color: state.colorData.color,
-// number: state.numberData.number
-  color: state.color,
-  number: state.number
+    //   color: state.color,
+    //   number: state.number
+    color: state.colorData.color,
+    number: state.numberData.number
 });
 
 /* 
